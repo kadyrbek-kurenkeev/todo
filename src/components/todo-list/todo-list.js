@@ -6,7 +6,6 @@ const TodoList = ({todosList}) => {
   const content = todosList.map((item) => {
     return   <li key={item.id}><TodoListItem label={item.label}/></li>
   })
-
     return (
       <div>
         <ul>

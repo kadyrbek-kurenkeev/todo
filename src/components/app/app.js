@@ -8,8 +8,8 @@ const App = () =>  {
 
   const todos = [
     {id: 1, label:"drink vodka", important: false, done: false},
-    {id: 1, label:"drink tequila", important: false, done: false},
-    {id: 1, label:"drink tan", important: false, done: false},
+    {id: 2, label:"drink tequila", important: false, done: false},
+    {id: 3, label:"drink tan", important: false, done: false},
 
   ]
 
@@ -17,7 +17,7 @@ const App = () =>  {
       <div>
         <Search/>
         <Filter/>
-       < TodoList todos={todos}/>
+       < TodoList todosList={todos}/>
       </div>
     )
   }

@@ -5,9 +5,9 @@ const TodoList = () => {
     return (
       <div>
         <ul>
-          <li><TodoListItem/></li>
-          <li><TodoListItem/></li>
-          <li><TodoListItem/></li>
+          <li><TodoListItem label={"task 1"}/></li>
+          <li><TodoListItem label={"task 2"}/></li>
+          <li><TodoListItem label={"task 3"}/></li>
         </ul>
       </div>
     )

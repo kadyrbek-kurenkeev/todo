@@ -4,9 +4,9 @@ const TodoList = () => {
     return (
       <div>
         <ul>
-          <li> <span>Task 1</span></li>
-          <li> <span>Task 2</span></li>
-          <li> <span>Task 3</span></li>
+          <li><TodoListItem/></li>
+          <li><TodoListItem/></li>
+          <li><TodoListItem/></li>
         </ul>
       </div>
     )
